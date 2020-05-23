@@ -1,0 +1,71 @@
+@import url('http://rodcordeiro.github.io/shares/fonts/Tadao/font.css');
+
+.container{
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  width: 100%;
+  flex-direction: row;
+}
+header{
+  background-color: #181818;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 20vh;
+  margin-top: 80px;
+}
+header nav ul li{
+  list-style: none;
+  margin: 5px 0;
+}
+.menuLink{
+  color: white;
+  text-decoration: none;
+  font-size: 20pt;
+}
+/* .menuLink.active{
+  border-bottom: 2px solid white;
+  padding: 5px;
+} */
+.logo{
+  height: auto;
+  width: 80%;
+  margin: 20px;
+}
+
+.content{
+  width: 100%;
+  color: #fff;
+
+  background-image: url('../../assets/deathstar.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+
+}
+.content h1{
+  width: 50%;
+  word-wrap: break-word;
+  font-family: 'TadaoW00';
+  font-size: 100pt;
+  padding: 2% 5%;
+  margin-top: 10%;
+  line-height: 90pt;
+  /* border: 1px solid red; */
+}
+.content p{
+  width: 50%;
+  word-wrap: break-word;
+  font-family: 'TadaoW00';
+  padding: 2% 5%;
+  font-size: 24pt;
+}
