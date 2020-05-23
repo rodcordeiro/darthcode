@@ -17,11 +17,10 @@ function MainPage() {
           </ul>
         </nav>
       </header>
-      <div className="content">
-        <h1>DARTH CODE</h1>
-        <p>
-          Inspired by the force, we are Darth Coders that are building the world.
-        </p>
+      <div className="projectContent">
+        <h1>Projetos</h1>
+        <div className="projects">
+        </div>
       </div>
     </div>
   );
